@@ -16,13 +16,13 @@
     <!-- Navbar -->
     <ul class="nav nav-tabs text-bg-secondary" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><a href="index.html">Página Inicial</a> </button>
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><a class=" text-decoration-none text-reset" href="index.html">Página Inicial</a> </button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><a href="perfil.html">Perfil</a></button>
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><a class=" text-decoration-none text-white" href="perfil.html">Perfil</a></button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"><a href="contato.html">Contato</a></button>
+          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"><a class=" text-decoration-none text-white" href="contato.html">Contato</a></button>
         </li>
       </ul>
       <div class="tab-content" id="myTabContent">
@@ -31,7 +31,42 @@
         <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
         <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
       </div>
-      Página Inicial
+
+      <div class="card mb-3">
+        <img src="img/imagem_1.jpg" class="card-img-top" alt="foto ponte e mar" height="400px">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+        <img src="..." class="card-img-bottom" alt="...">
+      </div>
+ 
+      <div class="border grid text-center" style="--bs-columns: 3;">
+        <div>
+          First auto-column
+          <div class="grid border">
+            <div>Auto-column</div>
+            <div>Auto-column</div>
+          </div>
+        </div>
+        <div>
+          Second auto-column
+          <div class="grid border" style="--bs-columns: 12;">
+            <div class="g-col-6 border">6 of 12</div>
+            <div class="g-col-4 border">4 of 12</div>
+            <div class="g-col-2 border">2 of 12</div>
+          </div>
+        </div>
+        <div>Third auto-column</div>
+      </div>
 
     
   </body>

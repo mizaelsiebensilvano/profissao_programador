@@ -16,13 +16,13 @@
     <!-- Navbar -->
     <ul class="nav nav-tabs text-bg-secondary" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><a href="index.html">Página Inicial</a></button>
+          <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="false"><a class=" text-decoration-none text-white" href="index.html">Página Inicial</a></button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><a href="perfil.html">Perfil</a></button>
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><a class=" text-decoration-none text-white" href="perfil.html">Perfil</a></button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"><a href="contato.html">Contato</a></button>
+          <button class="nav-link active" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="true"><a class=" text-decoration-none text-reset" href="contato.html">Contato</a></button>
         </li>
       </ul>
       <div class="tab-content" id="myTabContent">
@@ -31,10 +31,10 @@
         <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
         <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
       </div>
-      
-      <h1>Contato:</h1>
+    </div>
+      <h1 class="text-bg-secondary">Contato:</h1>
+
       <!-- Form -->
-      
       <div class="row">
             <div class="col mb-3">
                 <input type="text" class="form-control" placeholder="First name" aria-label="First name">
@@ -43,50 +43,52 @@
                 <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
                 <label for="form-control"></label>
             </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Comentários:</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
             <div class="form-floating mb-3">
                 <input type="text" class="form-control" placeholder="Cidade" aria-label="Cidade">
                 <label for="form-control">Cidade:</label>
             </div>
-            
-            <!-- Formulário -->
-        <div class="form-floating">
+        <div class="form-floating mb-3">
             <select class="form-select" id="floatingSelectDisabled" aria-label="Floating label disabled select example">
                 <option selected>Selecio seu Estado:</option>
                 <option value="1">Acre - AC</option>
                 <option value="2">Alagoas - AL</option>
                 <option value="3">Amapá - AP</option>
-                <option value="3">Amazonas - AM</option>
-                <option value="3">Bahia - BA</option>
-                <option value="3">Ceará - CE</option>
-                <option value="3">Distitro Federal - DF</option>
-                <option value="3">Espírito Santo - ES</option>
-                <option value="3">Goiás - GO</option>
-                <option value="3">Maranhão - MA</option>
-                <option value="3">Mato Grosso - MT</option>
-                <option value="3">Mato Grosso do Sul - MS</option>
-                <option value="3">Minas Gerais - MG</option>
-                <option value="3">Pará - PA</option>
-                <option value="3">Paraíba - PB</option>
-                <option value="3">Paraná - PR</option>
-                <option value="3">Pernambuco - PE</option>
-                <option value="3">Piauí - PI</option>
-                <option value="3">Rio de Janeiro - RJ</option>
-                <option value="3">Rio Grande do Sul - RS</option>
-                <option value="3">Rio Grande do Norte - RN</option>
-                <option value="3">Rondônia - RO</option>
-                <option value="3">Roraima - RR</option>
-                <option value="3">Santa Catarina - SC</option>
-                <option value="3">São Paulo - SP</option>
-                <option value="3">Sergipe - SE</option>
-                <option value="3">Tocantis - TO</option>
-                <option value="3">Amapá - AP</option>
+                <option value="4">Amazonas - AM</option>
+                <option value="5">Bahia - BA</option>
+                <option value="6">Ceará - CE</option>
+                <option value="7">Distitro Federal - DF</option>
+                <option value="8">Espírito Santo - ES</option>
+                <option value="9">Goiás - GO</option>
+                <option value="10">Maranhão - MA</option>
+                <option value="11">Mato Grosso - MT</option>
+                <option value="12">Mato Grosso do Sul - MS</option>
+                <option value="13">Minas Gerais - MG</option>
+                <option value="14">Pará - PA</option>
+                <option value="15">Paraíba - PB</option>
+                <option value="16">Paraná - PR</option>
+                <option value="17">Pernambuco - PE</option>
+                <option value="18">Piauí - PI</option>
+                <option value="19">Rio de Janeiro - RJ</option>
+                <option value="20">Rio Grande do Sul - RS</option>
+                <option value="21">Rio Grande do Norte - RN</option>
+                <option value="22">Rondônia - RO</option>
+                <option value="23">Roraima - RR</option>
+                <option value="24">Santa Catarina - SC</option>
+                <option value="25">São Paulo - SP</option>
+                <option value="26">Sergipe - SE</option>
+                <option value="27">Tocantis - TO</option>
             </select>
             <label for="floatingSelectDisabled">Estado:</label>
-        </div>
-        <div class="form-floating mb-3">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2Disabled" style="height: 100px"></textarea>
-            <label for="floatingTextarea2Disabled">Comentários</label>
-        </div>
-    </div>
+            <button type="button" class="btn btn-outline-secondary">Enviar</button>
+          </div>
+
   </body>
 </html>
