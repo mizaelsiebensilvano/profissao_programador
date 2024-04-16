@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+   <!-- Fonte Bebas Neue -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+    <!-- Fonte Yanone -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
@@ -12,10 +19,22 @@
     <body>
     <div id="faixa-do-topo">
         <div class="container">
-            <span><a href="#">contactinfo@gmail.com</a></span>
-            <span><a href="#">+5513997224237</a></span>
-            <span class="float-right">English</span>
-            <span class="float-right">Find our Store</span>
+            <span>
+                <i class="fa-solid fa-square-arrow-up-right"></i>
+                <a href="#">contactinfo@gmail.com</a>
+            </span>
+            <span>
+                <i class="fa-solid fa-square-phone"></i>
+                <a href="#">+5513997224237</a>
+            </span>
+            <span class="float-right">
+                <i class="fa-solid fa-globe"></i>
+                English
+            </span>
+            <span class="float-right">
+                <i class="fa-solid fa-location-dot"></i>
+                Find our Store
+            </span>
         </div>
     </div>
         <div id="header">
@@ -24,18 +43,18 @@
                 <img id="logo" src="https://d1ih8jugeo2m5m.cloudfront.net/2022/12/que-es-un-logo-spotify.png" alt="">
             </div>
             <div class="menu">
-                <a href="">Home</a>
-                <a href="">Pages</a>
-                <a href="">Shop</a>
-                <a href="">Blog</a>
-                <a href="">Contact</a>
+                <a href="">Home <i class="fa-solid fa-chevron-down"></i></a>
+                <a href="">Pages <i class="fa-solid fa-chevron-down"></i></a>
+                <a href="">Shop <i class="fa-solid fa-chevron-down"></i></a>
+                <a href="">Blog <i class="fa-solid fa-chevron-down"></i></a>
+                <a href="">Contact <i class="fa-solid fa-chevron-down"></i></a>
             </div>
             <div class="botoes">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 
                 <i class="fa-regular fa-user"></i>
                 
-                <i class="fa-solid fa-basket-shopping"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
             </div>
         </div>
         </div>
@@ -43,8 +62,8 @@
             <main>
                 <div>
                     <div class="happiness">
-                        <img src="imagens/pe_e_bola.png" alt="">
-                        <p>FOOTBALL IS A GAME WITH <span>HAPPINESS</span></p>
+                        <img class="pe_bola" src="imagens/pe_e_bola.png" alt="foto pé e bola no gramado">
+                        <p>FOOTBALL <br> IS A GAME <br> WITH <span class="happ">HAPPINESS</span></p>
                         
                     </div>
                     <div class="img_chute">
@@ -59,12 +78,12 @@
         
                     </div>
                     <div class="get">
-                        <div class="button">
+                        <button class="button">
                             Get Started Now
-                        </div>
+                        </button>
                         <button class="online">
-                            <i class="fa-solid fa-circle-play"></i>
-                            <p> Online Streaming</p>
+                        <i class="fa-solid fa-circle-play"></i>
+                            Online Streaming
                         </button>
                     </div>
                     <div class="clear"></div>
@@ -72,7 +91,7 @@
                 <div class="fitness">
                     <h1>FITNESS IS ULTMATE GOAL</h1>
                     <p class="underline">__________</p>
-                    <p>
+                    <p class="provide">
                         Provide a comprehensive directory of golf courses, incluging details such as <br>
                         location, course layout, facilities, and user reviews.
                     </p>
