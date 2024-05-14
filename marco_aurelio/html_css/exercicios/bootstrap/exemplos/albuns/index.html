@@ -14,20 +14,15 @@
 </head>
 <body>
     <header class="bg-dark">
+      <p class="d-inline-flex gap-1"></p>
+      <div class="collapse bg-dark text-white" id="collapseExample">
+      <div class="card card-body">
+      <h3>About</h3>
+    <p class="text-white">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
 
-      <p class="d-inline-flex gap-1">
-        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Link with href
-        </a>
-        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-          Button with data-bs-target
-        </button>
-      </p>
-      <div class="collapse" id="collapseExample">
-        <div class="card card-body">
-          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-        </div>
-      </div>
+
+  </div>
+</div>
 
         <div class="container">
             <div class="row mx-auto py-2 text-white">
@@ -36,7 +31,7 @@
                     Album
                 </div>
                 <div class="col-6 px-5 text-end">
-                    <button class="btn btn-outline-secondary"><i class="fa-solid fa-bars"></i></button>
+                    <button class="btn btn-outline-secondary" data-bs-toggle="collapse" data-bs-target="#collapseExample"><i class="fa-solid fa-bars"></i></button>
                 </div>
             </div>
         </div>
